@@ -1,0 +1,10 @@
+[project]
+name = "mcp-ai2sql"
+version = "0.1.0"
+description = "SQL query generator using MCP"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dotenv>=0.9.9",
+    "mcp[cli]>=1.6.0",
+]
